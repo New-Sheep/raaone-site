@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@600;900&family=Merriweather:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background: linear-gradient(to bottom right, #000000, #1a1a1a);
+  color: #f0f0f0;
+  line-height: 1.7;
+  padding-bottom: 80px;
+}
+
+header {
+  background: radial-gradient(circle at top left, #e60000, #400000);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-family: 'Unbounded', cursive;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #ffe0e0;
+}
+
+section {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+section h2 {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 2rem;
+  color: #e60000;
+  margin-bottom: 1rem;
+}
+
+section p,
+section li {
+  font-size: 1rem;
+  color: #e6e6e6;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #111;
+  color: #777;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.cta {
+  background-color: #e60000;
+  color: white;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #990000;
+}
+
+.highlight {
+  color: #ff5959;
+  font-weight: bold;
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 4px solid #e60000;
+  padding-left: 1rem;
+  margin: 2rem 0;
+  color: #ccc;
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
